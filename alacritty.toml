@@ -1,0 +1,36 @@
+# Windows Workspace
+working_directory = "C:\\Users\\matth"
+
+# 1920 x 1080
+[window]
+
+dimensions = { columns = 146, lines = 34 }
+position = { x = 70, y = 64 }
+
+title = ""
+dynamic_title = false
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[colors]
+
+primary.background = "#000000"
+primary.foreground = "#FFFFFF"
+
+[font]
+
+normal.family = "CaskaydiaCove Nerd Font"
+bold.family = "CaskaydiaCove Nerd Font"
+italic.family = "CaskaydiaCove Nerd Font"
+
+size = 13.0
+
+[shell]
+
+program = "C:\\Windows\\System32\\wsl.exe"
+args = ["-d", "Arch"]
+# program = "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
